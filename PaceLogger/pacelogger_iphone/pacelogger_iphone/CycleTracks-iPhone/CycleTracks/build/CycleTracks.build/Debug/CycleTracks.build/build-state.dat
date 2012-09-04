@@ -1,0 +1,668 @@
+TCycleTracks
+v7
+r1
+cCheck dependencies
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/ArrowButton.png
+c000000004AC12F700000000000000ACD
+t1254174576
+s2765
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/ClearArrowButton.png
+c000000004AC12F700000000000000669
+t1254174576
+s1641
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/ClearArrowButtonDark.png
+c000000004AC12F7000000000000006A5
+t1254174576
+s1701
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/ClearArrowButtonWideDark.png
+c000000004AC12F7000000000000006BA
+t1254174576
+s1722
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Default.png
+c000000004C2CAFD000000000000089F6
+t1277997008
+s35318
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/GreenCheckMark.png
+c000000004C2CAFD000000000000005BE
+t1277997008
+s1470
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/GreenCheckMark2.png
+c000000004C2CAFD00000000000000139
+t1277997008
+s313
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/GreenCheckMark3.png
+c000000004C2CAFD00000000000000142
+t1277997008
+s322
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Icon.png
+c000000004AC12F700000000000000B78
+t1254174576
+s2936
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/LCD-screen-288x126.png
+c000000004C2CAFD00000000000000F48
+t1277997008
+s3912
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/LargeCounter.png
+c000000004ABB9E820000000000000624
+t1253809794
+s1572
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/LockIcon.png
+c000000004C2CAFD00000000000001385
+t1277997008
+s4997
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/MainWindow.xib
+c000000004C2CAFD0000000000000AFE9
+t1277997008
+s45033
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/MapCoord.png
+c000000004AC61FBE000000000000007E
+t1254498238
+s126
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/MapViewController.xib
+c000000004AC61FBE000000000000206D
+t1254498238
+s8301
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/OpacityMask80.png
+c000000004AC12F7000000000000004F9
+t1254174576
+s1273
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/OpacityMaskWindow.png
+c000000004AC12F700000000000000D7C
+t1254174576
+s3452
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/PersonalInfo.xib
+c000000004C2CAFD00000000000004B5A
+t1277997008
+s19290
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/RecordMap.xib
+c000000004C2CAFD0000000000000A47B
+t1277997008
+s42107
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/RecordNewTrip.xib
+c000000004C2CAFD000000000000C97B9
+t1277997008
+s825273
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/SlideToUnlock.png
+c000000004ABB9E820000000000003552
+t1253809794
+s13650
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TabBarIcons/../20-gear2.png
+c000000004C2CAFD00000000000000177
+t1277997008
+s375
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TabBarIcons/settings_icon2.png
+c000000004C2CAFD000000000000004CB
+t1277997008
+s1227
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TabBarIcons/tabbar_instructions.png
+c000000004C2CAFD0000000000000032C
+t1277997008
+s812
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TabBarIcons/tabbar_record.png
+c000000004ABB9E82000000000000050E
+t1253809794
+s1294
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TabBarIcons/tabbar_settings.png
+c000000004C2CAFD000000000000001CD
+t1277997008
+s461
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TabBarIcons/tabbar_view.png
+c000000004ABB9E820000000000000276
+t1253809794
+s630
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TripPurposePicker.xib
+c000000004C2CAFD00000000000006E3A
+t1277997008
+s28218
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TripPurposePickerIcons v2/commute.tif
+c000000004ABB9E820000000000007ABC
+t1253809794
+s31420
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TripPurposePickerIcons v2/commuter2.png
+c000000004C2CAFD000000000000003F9
+t1277997008
+s1017
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TripPurposePickerIcons v2/errands.tif
+c000000004ABB9E8200000000000074C0
+t1253809794
+s29888
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TripPurposePickerIcons v2/exercise.tif
+c000000004ABB9E820000000000008EE8
+t1253809794
+s36584
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TripPurposePickerIcons v2/other.tif
+c000000004ABB9E820000000000007190
+t1253809794
+s29072
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TripPurposePickerIcons v2/school.tif
+c000000004ABB9E82000000000000726C
+t1253809794
+s29292
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TripPurposePickerIcons v2/shopping.tif
+c000000004ABB9E82000000000000727C
+t1253809794
+s29308
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TripPurposePickerIcons v2/social.tif
+c000000004ABB9E8200000000000073B4
+t1253809794
+s29620
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TripPurposePickerIcons v2/work-related.tif
+c000000004ABB9E820000000000007358
+t1253809794
+s29528
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/UnlockIcon.png
+c000000004C2CAFD000000000000013B4
+t1277997008
+s5044
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/bicycle-bell-normalized.aiff
+c000000004C2CAFD00000000000030736
+t1277997008
+s198454
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app
+t2
+s0
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Info.plist
+t2
+s0
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/20-gear2.png
+t2
+s0
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/ArrowButton.png
+t2
+s0
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/ClearArrowButton.png
+t2
+s0
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/ClearArrowButtonDark.png
+t2
+s0
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/ClearArrowButtonWideDark.png
+t2
+s0
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/Default.png
+t2
+s0
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/GreenCheckMark.png
+t2
+s0
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/GreenCheckMark2.png
+t2
+s0
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/GreenCheckMark3.png
+t2
+s0
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/Icon.png
+t2
+s0
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/LCD-screen-288x126.png
+t2
+s0
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/LargeCounter.png
+t2
+s0
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/LockIcon.png
+t2
+s0
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/MainWindow.nib
+t2
+s0
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/MapCoord.png
+t2
+s0
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/MapViewController.nib
+t2
+s0
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/OpacityMask80.png
+t2
+s0
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/OpacityMaskWindow.png
+t2
+s0
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/PersonalInfo.nib
+t2
+s0
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/RecordMap.nib
+t2
+s0
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/RecordNewTrip.nib
+t2
+s0
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/SlideToUnlock.png
+t2
+s0
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/TripPurposePicker.nib
+t2
+s0
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/UnlockIcon.png
+t2
+s0
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/bicycle-bell-normalized.aiff
+t2
+s0
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/commute.tif
+t2
+s0
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/commuter2.png
+t2
+s0
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/dist.plist
+t2
+s0
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/errands.tif
+t2
+s0
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/exclamation_point.png
+t2
+s0
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/exercise.tif
+t2
+s0
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/lock_button1.png
+t2
+s0
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/lock_button2.png
+t2
+s0
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/lock_button_fpo.png
+t2
+s0
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/orangeslide.png
+t2
+s0
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/other.tif
+t2
+s0
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/record-map-frame-288x141.png
+t2
+s0
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/save_button.png
+t2
+s0
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/save_button_selected.png
+t2
+s0
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/school.tif
+t2
+s0
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/settings_icon2.png
+t2
+s0
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/shopping.tif
+t2
+s0
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/slider_ball.png
+t2
+s0
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/social.tif
+t2
+s0
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/start_button.png
+t2
+s0
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/start_button_selected.png
+t2
+s0
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/tabbar_instructions.png
+t2
+s0
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/tabbar_record.png
+t2
+s0
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/tabbar_settings.png
+t2
+s0
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/tabbar_view.png
+t2
+s0
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/whiteButton.png
+t2
+s0
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/work-related.tif
+t2
+s0
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/yellowslide.png
+t2
+s0
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/dist.plist
+c000000004AC12F7000000000000000E9
+t1254174576
+s233
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/exclamation_point.png
+c000000004C2CAFD00000000000000589
+t1277997008
+s1417
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/lock_button1.png
+c000000004C2CAFD00000000000001932
+t1277997008
+s6450
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/lock_button2.png
+c000000004C2CAFD0000000000000146E
+t1277997008
+s5230
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/lock_button_fpo.png
+c000000004C2CAFD00000000000001CBB
+t1277997008
+s7355
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/orangeslide.png
+c000000004ABB9E820000000000000C29
+t1253809794
+s3113
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/record-map-frame-288x141.png
+c000000004C2CAFD00000000000000239
+t1277997008
+s569
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/save_button.png
+c000000004AC12F700000000000001366
+t1254174576
+s4966
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/save_button_selected.png
+c000000004AC12F7000000000000011B8
+t1254174576
+s4536
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/slider_ball.png
+c000000004ABB9E820000000000000364
+t1253809794
+s868
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/start_button.png
+c000000004AC12F700000000000001165
+t1254174576
+s4453
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/start_button_selected.png
+c000000004AC12F7000000000000011D4
+t1254174576
+s4564
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/whiteButton.png
+c000000004ABB9E820000000000000596
+t1253809794
+s1430
+
+N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/yellowslide.png
+c000000004ABB9E820000000000000C26
+t1253809794
+s3110
+
+NCycleTracks-Info.plist
+c000000004C5882EC000000000000049F
+t1280869100
+s1183
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies303058640#303058640#0(68"[BEROR]error: There is no SDK with the name or path 'iphoneos3.1.3'1(4@60"error: There is no SDK with the name or path 'iphoneos3.1.3'303058640#18446744073709551615#0#0(1@0"0(0#1#0"31244212048494624#0"0#
+
+CCompileXIB /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/MainWindow.xib
+r0
+
+CCompileXIB /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/MapViewController.xib
+r0
+
+CCompileXIB /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/PersonalInfo.xib
+r0
+
+CCompileXIB /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/RecordMap.xib
+r0
+
+CCompileXIB /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/RecordNewTrip.xib
+r0
+
+CCompileXIB /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TripPurposePicker.xib
+r0
+
+CCopyPlistFile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/dist.plist dist.plist
+r0
+
+CCopyTiffFile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/commute.tif "TripPurposePickerIcons v2/commute.tif"
+r0
+
+CCopyTiffFile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/errands.tif "TripPurposePickerIcons v2/errands.tif"
+r0
+
+CCopyTiffFile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/exercise.tif "TripPurposePickerIcons v2/exercise.tif"
+r0
+
+CCopyTiffFile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/other.tif "TripPurposePickerIcons v2/other.tif"
+r0
+
+CCopyTiffFile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/school.tif "TripPurposePickerIcons v2/school.tif"
+r0
+
+CCopyTiffFile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/shopping.tif "TripPurposePickerIcons v2/shopping.tif"
+r0
+
+CCopyTiffFile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/social.tif "TripPurposePickerIcons v2/social.tif"
+r0
+
+CCopyTiffFile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Resources/work-related.tif "TripPurposePickerIcons v2/work-related.tif"
+r0
+
+CCpResource build/Debug/CycleTracks.app/Contents/Resources/20-gear2.png TabBarIcons/../20-gear2.png
+r0
+
+CCpResource build/Debug/CycleTracks.app/Contents/Resources/ArrowButton.png ArrowButton.png
+r0
+
+CCpResource build/Debug/CycleTracks.app/Contents/Resources/ClearArrowButton.png ClearArrowButton.png
+r0
+
+CCpResource build/Debug/CycleTracks.app/Contents/Resources/ClearArrowButtonDark.png ClearArrowButtonDark.png
+r0
+
+CCpResource build/Debug/CycleTracks.app/Contents/Resources/ClearArrowButtonWideDark.png ClearArrowButtonWideDark.png
+r0
+
+CCpResource build/Debug/CycleTracks.app/Contents/Resources/Default.png Default.png
+r0
+
+CCpResource build/Debug/CycleTracks.app/Contents/Resources/GreenCheckMark.png GreenCheckMark.png
+r0
+
+CCpResource build/Debug/CycleTracks.app/Contents/Resources/GreenCheckMark2.png GreenCheckMark2.png
+r0
+
+CCpResource build/Debug/CycleTracks.app/Contents/Resources/GreenCheckMark3.png GreenCheckMark3.png
+r0
+
+CCpResource build/Debug/CycleTracks.app/Contents/Resources/Icon.png Icon.png
+r0
+
+CCpResource build/Debug/CycleTracks.app/Contents/Resources/LCD-screen-288x126.png LCD-screen-288x126.png
+r0
+
+CCpResource build/Debug/CycleTracks.app/Contents/Resources/LargeCounter.png LargeCounter.png
+r0
+
+CCpResource build/Debug/CycleTracks.app/Contents/Resources/LockIcon.png LockIcon.png
+r0
+
+CCpResource build/Debug/CycleTracks.app/Contents/Resources/MapCoord.png MapCoord.png
+r0
+
+CCpResource build/Debug/CycleTracks.app/Contents/Resources/OpacityMask80.png OpacityMask80.png
+r0
+
+CCpResource build/Debug/CycleTracks.app/Contents/Resources/OpacityMaskWindow.png OpacityMaskWindow.png
+r0
+
+CCpResource build/Debug/CycleTracks.app/Contents/Resources/SlideToUnlock.png SlideToUnlock.png
+r0
+
+CCpResource build/Debug/CycleTracks.app/Contents/Resources/UnlockIcon.png UnlockIcon.png
+r0
+
+CCpResource build/Debug/CycleTracks.app/Contents/Resources/bicycle-bell-normalized.aiff bicycle-bell-normalized.aiff
+r0
+
+CCpResource build/Debug/CycleTracks.app/Contents/Resources/commuter2.png "TripPurposePickerIcons v2/commuter2.png"
+r0
+
+CCpResource build/Debug/CycleTracks.app/Contents/Resources/exclamation_point.png exclamation_point.png
+r0
+
+CCpResource build/Debug/CycleTracks.app/Contents/Resources/lock_button1.png lock_button1.png
+r0
+
+CCpResource build/Debug/CycleTracks.app/Contents/Resources/lock_button2.png lock_button2.png
+r0
+
+CCpResource build/Debug/CycleTracks.app/Contents/Resources/lock_button_fpo.png lock_button_fpo.png
+r0
+
+CCpResource build/Debug/CycleTracks.app/Contents/Resources/orangeslide.png orangeslide.png
+r0
+
+CCpResource build/Debug/CycleTracks.app/Contents/Resources/record-map-frame-288x141.png record-map-frame-288x141.png
+r0
+
+CCpResource build/Debug/CycleTracks.app/Contents/Resources/save_button.png save_button.png
+r0
+
+CCpResource build/Debug/CycleTracks.app/Contents/Resources/save_button_selected.png save_button_selected.png
+r0
+
+CCpResource build/Debug/CycleTracks.app/Contents/Resources/settings_icon2.png TabBarIcons/settings_icon2.png
+r0
+
+CCpResource build/Debug/CycleTracks.app/Contents/Resources/slider_ball.png slider_ball.png
+r0
+
+CCpResource build/Debug/CycleTracks.app/Contents/Resources/start_button.png start_button.png
+r0
+
+CCpResource build/Debug/CycleTracks.app/Contents/Resources/start_button_selected.png start_button_selected.png
+r0
+
+CCpResource build/Debug/CycleTracks.app/Contents/Resources/tabbar_instructions.png TabBarIcons/tabbar_instructions.png
+r0
+
+CCpResource build/Debug/CycleTracks.app/Contents/Resources/tabbar_record.png TabBarIcons/tabbar_record.png
+r0
+
+CCpResource build/Debug/CycleTracks.app/Contents/Resources/tabbar_settings.png TabBarIcons/tabbar_settings.png
+r0
+
+CCpResource build/Debug/CycleTracks.app/Contents/Resources/tabbar_view.png TabBarIcons/tabbar_view.png
+r0
+
+CCpResource build/Debug/CycleTracks.app/Contents/Resources/whiteButton.png whiteButton.png
+r0
+
+CCpResource build/Debug/CycleTracks.app/Contents/Resources/yellowslide.png yellowslide.png
+r0
+
+CProcessInfoPlistFile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app/Contents/Info.plist CycleTracks-Info.plist
+r0
+
+CTouch /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Debug/CycleTracks.app
+r0
+
