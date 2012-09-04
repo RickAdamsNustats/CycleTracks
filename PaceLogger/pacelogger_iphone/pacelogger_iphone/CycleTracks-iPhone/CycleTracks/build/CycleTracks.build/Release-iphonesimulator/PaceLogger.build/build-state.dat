@@ -1,2117 +1,0 @@
-TPaceLogger
-v7
-r0
-t304527907.149448
-cCheck dependencies
-cProcessInfoPlistFile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/Info.plist CycleTracks-Info.plist
-cCompileXIB /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TripPurposePicker.xib
-cCpResource build/Release-iphonesimulator/CycleTracks.app/LargeCounter.png LargeCounter.png
-cCopyTiffFile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/commute.tif "TripPurposePickerIcons v2/commute.tif"
-cCopyTiffFile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/errands.tif "TripPurposePickerIcons v2/errands.tif"
-cCopyTiffFile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/exercise.tif "TripPurposePickerIcons v2/exercise.tif"
-cCopyTiffFile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/other.tif "TripPurposePickerIcons v2/other.tif"
-cCopyTiffFile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/school.tif "TripPurposePickerIcons v2/school.tif"
-cCopyTiffFile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/shopping.tif "TripPurposePickerIcons v2/shopping.tif"
-cCopyTiffFile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/social.tif "TripPurposePickerIcons v2/social.tif"
-cCopyTiffFile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/work-related.tif "TripPurposePickerIcons v2/work-related.tif"
-cCpResource build/Release-iphonesimulator/CycleTracks.app/tabbar_record.png TabBarIcons/tabbar_record.png
-cCpResource build/Release-iphonesimulator/CycleTracks.app/tabbar_view.png TabBarIcons/tabbar_view.png
-cCpResource build/Release-iphonesimulator/CycleTracks.app/SlideToUnlock.png SlideToUnlock.png
-cCpResource build/Release-iphonesimulator/CycleTracks.app/slider_ball.png slider_ball.png
-cCpResource build/Release-iphonesimulator/CycleTracks.app/yellowslide.png yellowslide.png
-cCpResource build/Release-iphonesimulator/CycleTracks.app/orangeslide.png orangeslide.png
-cCpResource build/Release-iphonesimulator/CycleTracks.app/whiteButton.png whiteButton.png
-cCpResource build/Release-iphonesimulator/CycleTracks.app/ArrowButton.png ArrowButton.png
-cCpResource build/Release-iphonesimulator/CycleTracks.app/OpacityMask80.png OpacityMask80.png
-cCpResource build/Release-iphonesimulator/CycleTracks.app/OpacityMaskWindow.png OpacityMaskWindow.png
-cCpResource build/Release-iphonesimulator/CycleTracks.app/ClearArrowButton.png ClearArrowButton.png
-cCpResource build/Release-iphonesimulator/CycleTracks.app/ClearArrowButtonDark.png ClearArrowButtonDark.png
-cCpResource build/Release-iphonesimulator/CycleTracks.app/ClearArrowButtonWideDark.png ClearArrowButtonWideDark.png
-cCopyPlistFile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/dist.plist dist.plist
-cCpResource build/Release-iphonesimulator/CycleTracks.app/save_button.png save_button.png
-cCpResource build/Release-iphonesimulator/CycleTracks.app/save_button_selected.png save_button_selected.png
-cCpResource build/Release-iphonesimulator/CycleTracks.app/start_button.png start_button.png
-cCpResource build/Release-iphonesimulator/CycleTracks.app/start_button_selected.png start_button_selected.png
-cCompileXIB /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/MapViewController.xib
-cCpResource build/Release-iphonesimulator/CycleTracks.app/MapCoord.png MapCoord.png
-cCpResource build/Release-iphonesimulator/CycleTracks.app/exclamation_point.png exclamation_point.png
-cCpResource build/Release-iphonesimulator/CycleTracks.app/GreenCheckMark.png GreenCheckMark.png
-cCpResource build/Release-iphonesimulator/CycleTracks.app/GreenCheckMark2.png GreenCheckMark2.png
-cCpResource build/Release-iphonesimulator/CycleTracks.app/bicycle-bell-normalized.aiff bicycle-bell-normalized.aiff
-cCpResource build/Release-iphonesimulator/CycleTracks.app/GreenCheckMark3.png GreenCheckMark3.png
-cCpResource build/Release-iphonesimulator/CycleTracks.app/commuter2.png "TripPurposePickerIcons v2/commuter2.png"
-cCpResource build/Release-iphonesimulator/CycleTracks.app/LockIcon.png LockIcon.png
-cCpResource build/Release-iphonesimulator/CycleTracks.app/UnlockIcon.png UnlockIcon.png
-cCpResource build/Release-iphonesimulator/CycleTracks.app/lock_button1.png lock_button1.png
-cCpResource build/Release-iphonesimulator/CycleTracks.app/lock_button2.png lock_button2.png
-cCpResource build/Release-iphonesimulator/CycleTracks.app/lock_button_fpo.png lock_button_fpo.png
-cCompileXIB /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/MainWindow.xib
-cCompileXIB /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/RecordNewTrip.xib
-cCompileXIB /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/PersonalInfo.xib
-cCpResource build/Release-iphonesimulator/CycleTracks.app/20-gear2.png TabBarIcons/../20-gear2.png
-cCompileXIB /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/RecordMap.xib
-cCpResource build/Release-iphonesimulator/CycleTracks.app/LCD-screen-288x126.png LCD-screen-288x126.png
-cCpResource build/Release-iphonesimulator/CycleTracks.app/record-map-frame-288x141.png record-map-frame-288x141.png
-cCpResource build/Release-iphonesimulator/CycleTracks.app/settings_icon2.png TabBarIcons/settings_icon2.png
-cCpResource build/Release-iphonesimulator/CycleTracks.app/tabbar_instructions.png TabBarIcons/tabbar_instructions.png
-cCpResource build/Release-iphonesimulator/CycleTracks.app/tabbar_settings.png TabBarIcons/tabbar_settings.png
-cCpResource build/Release-iphonesimulator/CycleTracks.app/Icon.png Icon.png
-cCpResource build/Release-iphonesimulator/CycleTracks.app/Default.png Default.png
-cProcessPCH /var/folders/3M/3Mc6UPbIF4Csdm6nOTNock+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CycleTracks_Prefix-fbmhmvktzqglahbrsxvmiwyaijkq/CycleTracks_Prefix.pch.gch CycleTracks_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cDataModelCompile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/CycleTracks.mom /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/CycleTracks.xcdatamodel
-cCompileC build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/main.o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/CycleTracksAppDelegate.o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/CycleTracksAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/RecordTripViewController.o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/RecordTripViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/SavedTripsViewController.o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/SavedTripsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/CustomView.o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/CustomView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/CustomPickerDataSource.o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/CustomPickerDataSource.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/PickerViewController.o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/PickerViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/Trip.o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Trip.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/TripManager.o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/TripManager.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/Coord.o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Coord.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/CDataScanner.o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/CDataScanner.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/CDataScanner_Extensions.o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/Extensions/CDataScanner_Extensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/NSCharacterSet_Extensions.o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/Extensions/NSCharacterSet_Extensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/NSDictionary_JSONExtensions.o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/Extensions/NSDictionary_JSONExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/NSScanner_Extensions.o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/Extensions/NSScanner_Extensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/CJSONDeserializer.o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/JSON/CJSONDeserializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/CJSONScanner.o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/JSON/CJSONScanner.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/CJSONSerializer.o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/JSON/CJSONSerializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/SaveRequest.o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/SaveRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/PersonalInfoViewController.o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/PersonalInfoViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/User.o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/User.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/MapViewController.o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/MapViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/MapCoord.o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/MapCoord.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/ReminderManager.o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/ReminderManager.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/AboutViewController.o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/AboutViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/LoadingView.o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/LoadingView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/CycleTracks normal i386
-cGenerateDSYMFile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app.dSYM /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/CycleTracks
-cTouch /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
-c000000004C601F200000000000000132
-t1281367840
-s306
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
-c000000004BFF3B7600000000001C8900
-t1275018102
-s1870080
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
-c000000004BFF3B620000000000000A23
-t1275018082
-s2595
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreData.framework/CoreData
-c000000004BFDFEB400000000001CFA90
-t1274937012
-s1899152
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
-c000000004BFDFEA8000000000000046B
-t1274937000
-s1131
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004BFDFE39000000000027C7D0
-t1274936889
-s2607056
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
-c000000004BFF44C00000000000068F90
-t1275020480
-s429968
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
-c000000004BFF44B600000000000001D0
-t1275020470
-s464
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004BFDFE7C000000000029D5D0
-t1274936956
-s2741712
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004BFDFE6E0000000000001466
-t1274936942
-s5222
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
-c000000004C04724700000000000002FE
-t1275359815
-s766
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/MapKit.framework/MapKit
-c000000004C04725B0000000000160350
-t1275359835
-s1442640
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
-c000000004C04586B00000000000000C4
-t1275353195
-s196
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c000000004C0458E90000000000151D30
-t1275353321
-s1383728
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Security.framework/Security
-c000000004BFDFDAD000000000007AFF0
-t1274936749
-s503792
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004C0470BB00000000000009CD
-t1275359419
-s2509
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004C0471620000000001D47210
-t1275359586
-s30700048
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/Availability.h
-c000000004BF4CBF90000000000001A3B
-t1274334201
-s6715
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/usr/include/CommonCrypto/CommonDigest.h
-c000000004A11E8210000000000002407
-t1242687521
-s9223
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/../../Default.jpg
-c000000004C7D6A20000000000000A287
-t1283287584
-s41607
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/../../Icon.png
-c000000004C7D69FD0000000000000EF4
-t1283287549
-s3828
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/ArrowButton.png
-c000000004AC12F700000000000000ACD
-t1254174576
-s2765
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/AboutViewController.h
-c000000004C4F61F400000000000004CC
-t1280270836
-s1228
-i<UIKit/UIKit.h>
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/AboutViewController.m
-c000000004C4F622E0000000000000AAF
-t1280270894
-s2735
-i"AboutViewController.h"
-i"constants.h"
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/ActivityIndicatorDelegate.h
-c000000004C4F61F400000000000005F5
-t1280270836
-s1525
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/CycleTracksAppDelegate.h
-c000000004C4F61F4000000000000082C
-t1280270836
-s2092
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/CycleTracksAppDelegate.m
-c000000004C4F622E0000000000003609
-t1280270894
-s13833
-i<CommonCrypto/CommonDigest.h>
-i"CycleTracksAppDelegate.h"
-i"PersonalInfoViewController.h"
-i"RecordTripViewController.h"
-i"SavedTripsViewController.h"
-i"TripManager.h"
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/LoadingView.h
-c000000004C58832C00000000000005F7
-t1280869164
-s1527
-i<UIKit/UIKit.h>
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/LoadingView.m
-c000000004C5883480000000000001D62
-t1280869192
-s7522
-i"LoadingView.h"
-i<QuartzCore/QuartzCore.h>
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/MapCoord.h
-c000000004C4F61F60000000000000695
-t1280270838
-s1685
-i<Foundation/Foundation.h>
-i<CoreLocation/CoreLocation.h>
-i<MapKit/MapKit.h>
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/MapCoord.m
-c000000004C4F622E00000000000005E6
-t1280270894
-s1510
-i"MapCoord.h"
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/MapViewController.h
-c000000004C4F61F600000000000006D6
-t1280270838
-s1750
-i<UIKit/UIKit.h>
-i<MapKit/MapKit.h>
-i"TripManager.h"
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/MapViewController.m
-c000000004C5882EC0000000000003AA4
-t1280869100
-s15012
-i"Coord.h"
-i"LoadingView.h"
-i"MapCoord.h"
-i"MapViewController.h"
-i"Trip.h"
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/PersonalInfoDelegate.h
-c000000004C4F61F60000000000000510
-t1280270838
-s1296
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/PersonalInfoViewController.h
-c000000004C4F61F6000000000000094B
-t1280270838
-s2379
-i<UIKit/UIKit.h>
-i"PersonalInfoDelegate.h"
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/PersonalInfoViewController.m
-c000000004C4F622E0000000000004353
-t1280270894
-s17235
-i"PersonalInfoViewController.h"
-i"User.h"
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/PickerViewController.h
-c000000004C4F61F6000000000000078A
-t1280270838
-s1930
-i<UIKit/UIKit.h>
-i"CustomPickerDataSource.h"
-i"TripPurposeDelegate.h"
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/PickerViewController.m
-c000000004C4F622E0000000000001881
-t1280270894
-s6273
-i"CustomView.h"
-i"PickerViewController.h"
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/RecordTripViewController.h
-c000000004C5882EC0000000000001201
-t1280869100
-s4609
-i<CoreLocation/CoreLocation.h>
-i"ActivityIndicatorDelegate.h"
-i<MapKit/MapKit.h>
-i"PersonalInfoDelegate.h"
-i"RecordingInProgressDelegate.h"
-i"TripPurposeDelegate.h"
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/RecordTripViewController.m
-c000000004C5882EC0000000000008B60
-t1280869100
-s35680
-i"constants.h"
-i"MapViewController.h"
-i"PersonalInfoViewController.h"
-i"PickerViewController.h"
-i"RecordTripViewController.h"
-i"ReminderManager.h"
-i"TripManager.h"
-i"Trip.h"
-i"User.h"
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/RecordingInProgressDelegate.h
-c000000004C4F61F6000000000000055B
-t1280270838
-s1371
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/ReminderManager.h
-c000000004C4F61F60000000000000653
-t1280270838
-s1619
-i<CoreLocation/CoreLocation.h>
-i<Foundation/Foundation.h>
-i"RecordingInProgressDelegate.h"
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/ReminderManager.m
-c000000004C4F622E0000000000001AD0
-t1280270894
-s6864
-i<AudioToolbox/AudioToolbox.h>
-i"constants.h"
-i"ReminderManager.h"
-i"TripManager.h"
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/SaveRequest.h
-c000000004C4F61F6000000000000064F
-t1280270838
-s1615
-i<Foundation/Foundation.h>
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/SaveRequest.m
-c000000004C62B6B20000000000000B95
-t1281537714
-s2965
-i"constants.h"
-i"CycleTracksAppDelegate.h"
-i"SaveRequest.h"
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/SavedTripsViewController.h
-c000000004C4F61F60000000000000917
-t1280270838
-s2327
-i<CoreLocation/CoreLocation.h>
-i<MapKit/MapKit.h>
-i"ActivityIndicatorDelegate.h"
-i"RecordingInProgressDelegate.h"
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/SavedTripsViewController.m
-c000000004C5882EC0000000000006608
-t1280869100
-s26120
-i"constants.h"
-i"Coord.h"
-i"LoadingView.h"
-i"MapViewController.h"
-i"PickerViewController.h"
-i"SavedTripsViewController.h"
-i"Trip.h"
-i"TripManager.h"
-i"TripPurposeDelegate.h"
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/TripManager.h
-c000000004C4F61F60000000000000DB6
-t1280270838
-s3510
-i<CoreLocation/CoreLocation.h>
-i<Foundation/Foundation.h>
-i"ActivityIndicatorDelegate.h"
-i"TripPurposeDelegate.h"
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/TripManager.m
-c000000004C4F622E0000000000008C5C
-t1280270894
-s35932
-i"CJSONSerializer.h"
-i"constants.h"
-i"Coord.h"
-i"SaveRequest.h"
-i"Trip.h"
-i"TripManager.h"
-i"User.h"
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/TripPurposeDelegate.h
-c000000004C4F61F6000000000000099F
-t1280270838
-s2463
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/ClearArrowButton.png
-c000000004AC12F700000000000000669
-t1254174576
-s1641
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/ClearArrowButtonDark.png
-c000000004AC12F7000000000000006A5
-t1254174576
-s1701
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/ClearArrowButtonWideDark.png
-c000000004AC12F7000000000000006BA
-t1254174576
-s1722
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Coord.h
-c000000004C4F61F600000000000006A8
-t1280270838
-s1704
-i<CoreData/CoreData.h>
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Coord.m
-c000000004C4F622E000000000000058B
-t1280270894
-s1419
-i"Coord.h"
-i"Trip.h"
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/CustomPickerDataSource.h
-c000000004C4F61F60000000000000A1E
-t1280270838
-s2590
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/CustomPickerDataSource.m
-c000000004C4F622E0000000000001232
-t1280270894
-s4658
-i"CustomPickerDataSource.h"
-i"CustomView.h"
-i"TripPurposeDelegate.h"
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/CustomView.h
-c000000004C4F61F600000000000005C0
-t1280270838
-s1472
-i"constants.h"
-i<UIKit/UIKit.h>
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/CustomView.m
-c000000004C4F622E0000000000000A1B
-t1280270894
-s2587
-i"CustomView.h"
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/CycleTracks.xcdatamodel
-c000000004C58A8080000000000000088
-t1280878600
-s136
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/CycleTracks_Prefix.pch
-c000000004C2CAFD0000000000000028F
-t1277997008
-s655
-i<Availability.h>
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-i<CoreData/CoreData.h>
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Default.png
-c000000004C6AAB3C0000000000009D2B
-t1282059068
-s40235
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/GreenCheckMark.png
-c000000004C2CAFD000000000000005BE
-t1277997008
-s1470
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/GreenCheckMark2.png
-c000000004C2CAFD00000000000000139
-t1277997008
-s313
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/GreenCheckMark3.png
-c000000004C2CAFD00000000000000142
-t1277997008
-s322
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Icon.png
-c000000004C69C8EA0000000000000673
-t1282001130
-s1651
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/LCD-screen-288x126.png
-c000000004C2CAFD00000000000000F48
-t1277997008
-s3912
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/LargeCounter.png
-c000000004ABB9E820000000000000624
-t1253809794
-s1572
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/LockIcon.png
-c000000004C2CAFD00000000000001385
-t1277997008
-s4997
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/MainWindow.xib
-c000000004C2CAFD0000000000000AFE9
-t1277997008
-s45033
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/MapCoord.png
-c000000004AC61FBE000000000000007E
-t1254498238
-s126
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/MapViewController.xib
-c000000004AC61FBE000000000000206D
-t1254498238
-s8301
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/OpacityMask80.png
-c000000004AC12F7000000000000004F9
-t1254174576
-s1273
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/OpacityMaskWindow.png
-c000000004AC12F700000000000000D7C
-t1254174576
-s3452
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/PersonalInfo.xib
-c000000004C2CAFD00000000000004B5A
-t1277997008
-s19290
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/RecordMap.xib
-c000000004C2CAFD0000000000000A47B
-t1277997008
-s42107
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/RecordNewTrip.xib
-c000000004C2CAFD000000000000C97B9
-t1277997008
-s825273
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/SlideToUnlock.png
-c000000004ABB9E820000000000003552
-t1253809794
-s13650
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/CDataScanner.h
-c000000004C4F61F600000000000008D8
-t1280270838
-s2264
-i<Foundation/Foundation.h>
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/CDataScanner.m
-c000000004C64750800000000000016BC
-t1281651976
-s5820
-i"CDataScanner.h"
-i"CDataScanner_Extensions.h"
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/Extensions/CDataScanner_Extensions.h
-c000000004C4F61F6000000000000050B
-t1280270838
-s1291
-i"CDataScanner.h"
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/Extensions/CDataScanner_Extensions.m
-c000000004C4F622E0000000000000972
-t1280270894
-s2418
-i"CDataScanner_Extensions.h"
-i"NSCharacterSet_Extensions.h"
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/Extensions/NSCharacterSet_Extensions.h
-c000000004C4F61F600000000000004DB
-t1280270838
-s1243
-i<Foundation/Foundation.h>
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/Extensions/NSCharacterSet_Extensions.m
-c000000004C4F622E000000000000069E
-t1280270894
-s1694
-i"NSCharacterSet_Extensions.h"
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/Extensions/NSDictionary_JSONExtensions.h
-c000000004C4F61F600000000000004F5
-t1280270838
-s1269
-i<Foundation/Foundation.h>
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/Extensions/NSDictionary_JSONExtensions.m
-c000000004C4F622E0000000000000575
-t1280270894
-s1397
-i"NSDictionary_JSONExtensions.h"
-i"CJSONDeserializer.h"
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/Extensions/NSScanner_Extensions.h
-c000000004C4F61F600000000000005BB
-t1280270838
-s1467
-i<Foundation/Foundation.h>
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/Extensions/NSScanner_Extensions.m
-c000000004C4F622E0000000000000D14
-t1280270894
-s3348
-i"NSScanner_Extensions.h"
-i"NSCharacterSet_Extensions.h"
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/JSON/CJSONDeserializer.h
-c000000004C4F61F600000000000006EF
-t1280270838
-s1775
-i<Foundation/Foundation.h>
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/JSON/CJSONDeserializer.m
-c000000004C4F622E000000000000096B
-t1280270894
-s2411
-i"CJSONDeserializer.h"
-i"CJSONScanner.h"
-i"CDataScanner.h"
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/JSON/CJSONScanner.h
-c000000004C4F61F60000000000000679
-t1280270838
-s1657
-i"CDataScanner.h"
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/JSON/CJSONScanner.m
-c000000004C4F622E0000000000003A3A
-t1280270894
-s14906
-i"CJSONScanner.h"
-i"NSCharacterSet_Extensions.h"
-i"CDataScanner_Extensions.h"
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/JSON/CJSONSerializer.h
-c000000004C4F61F600000000000005E5
-t1280270838
-s1509
-i<Foundation/Foundation.h>
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/JSON/CJSONSerializer.m
-c000000004C4F622E00000000000016F6
-t1280270894
-s5878
-i"CJSONSerializer.h"
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TabBarIcons/../20-gear2.png
-c000000004C2CAFD00000000000000177
-t1277997008
-s375
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TabBarIcons/settings_icon2.png
-c000000004C2CAFD000000000000004CB
-t1277997008
-s1227
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TabBarIcons/tabbar_instructions.png
-c000000004C2CAFD0000000000000032C
-t1277997008
-s812
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TabBarIcons/tabbar_record.png
-c000000004ABB9E82000000000000050E
-t1253809794
-s1294
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TabBarIcons/tabbar_settings.png
-c000000004C2CAFD000000000000001CD
-t1277997008
-s461
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TabBarIcons/tabbar_view.png
-c000000004ABB9E820000000000000276
-t1253809794
-s630
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Trip.h
-c000000004C4F61F6000000000000076A
-t1280270838
-s1898
-i<CoreData/CoreData.h>
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Trip.m
-c000000004C4F622E0000000000000582
-t1280270894
-s1410
-i"Trip.h"
-i"Coord.h"
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TripPurposePicker.xib
-c000000004C2CAFD00000000000006E3A
-t1277997008
-s28218
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TripPurposePickerIcons v2/commute.tif
-c000000004ABB9E820000000000007ABC
-t1253809794
-s31420
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TripPurposePickerIcons v2/commuter2.png
-c000000004C2CAFD000000000000003F9
-t1277997008
-s1017
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TripPurposePickerIcons v2/errands.tif
-c000000004ABB9E8200000000000074C0
-t1253809794
-s29888
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TripPurposePickerIcons v2/exercise.tif
-c000000004ABB9E820000000000008EE8
-t1253809794
-s36584
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TripPurposePickerIcons v2/other.tif
-c000000004ABB9E820000000000007190
-t1253809794
-s29072
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TripPurposePickerIcons v2/school.tif
-c000000004ABB9E82000000000000726C
-t1253809794
-s29292
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TripPurposePickerIcons v2/shopping.tif
-c000000004ABB9E82000000000000727C
-t1253809794
-s29308
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TripPurposePickerIcons v2/social.tif
-c000000004ABB9E8200000000000073B4
-t1253809794
-s29620
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TripPurposePickerIcons v2/work-related.tif
-c000000004ABB9E820000000000007358
-t1253809794
-s29528
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/UnlockIcon.png
-c000000004C2CAFD000000000000013B4
-t1277997008
-s5044
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/User.h
-c000000004C4F61F6000000000000076F
-t1280270838
-s1903
-i<CoreData/CoreData.h>
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/User.m
-c000000004C4F622E0000000000000582
-t1280270894
-s1410
-i"User.h"
-i"Trip.h"
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/bicycle-bell-normalized.aiff
-c000000004C2CAFD00000000000030736
-t1277997008
-s198454
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/AboutViewController.o
-t1282073664
-s38816
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/CDataScanner.o
-t1282073663
-s24200
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/CDataScanner_Extensions.o
-t1282073663
-s9920
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/CJSONDeserializer.o
-t1282073663
-s12308
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/CJSONScanner.o
-t1282073664
-s28580
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/CJSONSerializer.o
-t1282073664
-s18216
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/Coord.o
-t1282073663
-s5464
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/CustomPickerDataSource.o
-t1282073663
-s47680
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/CustomView.o
-t1282073662
-s40360
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/CycleTracks.LinkFileList
-c000000004C6AE43B000000000000106C
-t1282073659
-s4204
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/CycleTracksAppDelegate.o
-t1282073662
-s70688
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/LoadingView.o
-t1282073665
-s43896
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/MapCoord.o
-t1282073664
-s14764
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/MapViewController.o
-t1282073664
-s74500
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/NSCharacterSet_Extensions.o
-t1282073663
-s6884
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/NSDictionary_JSONExtensions.o
-t1282073663
-s7228
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/NSScanner_Extensions.o
-t1282073663
-s13472
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/PersonalInfoViewController.o
-t1282073664
-s81476
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/PickerViewController.o
-t1282073663
-s56808
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/RecordTripViewController.o
-t1282073663
-s143472
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/ReminderManager.o
-t1282073665
-s59676
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/SaveRequest.o
-t1282073664
-s53664
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/SavedTripsViewController.o
-t1282073662
-s103100
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/Trip.o
-t1282073663
-s5468
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/TripManager.o
-t1282073664
-s128436
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/User.o
-t1282073664
-s5452
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/main.o
-t1282073662
-s6328
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app
-t1282073665
-s2006
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app.dSYM
-t1282073665
-s102
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/20-gear2.png
-t1282073660
-s375
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/ArrowButton.png
-t1282073659
-s2765
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/ClearArrowButton.png
-t1282073659
-s1641
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/ClearArrowButtonDark.png
-t1282073659
-s1701
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/ClearArrowButtonWideDark.png
-t1282073659
-s1722
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/CycleTracks
-t1282073665
-s235968
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/CycleTracks.mom
-t1282073662
-s6931
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/Default.jpg
-t2
-s0
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/Default.png
-t1282073660
-s40235
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/GreenCheckMark.png
-t1282073659
-s1470
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/GreenCheckMark2.png
-t1282073659
-s313
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/GreenCheckMark3.png
-t1282073659
-s322
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/Icon.png
-t1282073660
-s1651
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/Info.plist
-t1282073659
-s796
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/LCD-screen-288x126.png
-t1282073660
-s3912
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/LargeCounter.png
-t1282073659
-s1572
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/LockIcon.png
-t1282073659
-s4997
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/MainWindow.nib
-t1282073660
-s5906
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/MapCoord.png
-t1282073659
-s126
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/MapViewController.nib
-t1282073659
-s1918
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/OpacityMask80.png
-t1282073659
-s1273
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/OpacityMaskWindow.png
-t1282073659
-s3452
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/PersonalInfo.nib
-t1282073660
-s1397
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/PkgInfo
-t1282073659
-s8
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/RecordMap.nib
-t1282073661
-s7599
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/RecordNewTrip.nib
-t1282073660
-s1421
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/SlideToUnlock.png
-t1282073659
-s13650
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/TripPurposePicker.nib
-t1282073659
-s3868
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/UnlockIcon.png
-t1282073659
-s5044
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/bicycle-bell-normalized.aiff
-t1282073659
-s198454
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/commute.tif
-t1282073659
-s31420
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/commuter2.png
-t1282073659
-s1017
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/dist.plist
-t1282073659
-s62
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/errands.tif
-t1282073659
-s29888
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/exclamation_point.png
-t1282073659
-s1417
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/exercise.tif
-t1282073659
-s36584
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/lock_button1.png
-t1282073659
-s6450
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/lock_button2.png
-t1282073659
-s5230
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/lock_button_fpo.png
-t1282073659
-s7355
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/orangeslide.png
-t1282073659
-s3113
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/other.tif
-t1282073659
-s29072
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/record-map-frame-288x141.png
-t1282073660
-s569
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/save_button.png
-t1282073659
-s4966
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/save_button_selected.png
-t1282073659
-s4536
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/school.tif
-t1282073659
-s29292
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/settings_icon2.png
-t1282073660
-s1227
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/shopping.tif
-t1282073659
-s29308
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/slider_ball.png
-t1282073659
-s868
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/social.tif
-t1282073659
-s29620
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/start_button.png
-t1282073659
-s4453
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/start_button_selected.png
-t1282073659
-s4564
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/tabbar_instructions.png
-t1282073660
-s812
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/tabbar_record.png
-t1282073659
-s1294
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/tabbar_settings.png
-t1282073660
-s461
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/tabbar_view.png
-t1282073659
-s630
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/whiteButton.png
-t1282073659
-s1430
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/work-related.tif
-t1282073659
-s29528
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/yellowslide.png
-t1282073659
-s3110
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/constants.h
-c000000004C698C4A0000000000000E30
-t1281985610
-s3632
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/dist.plist
-c000000004AC12F7000000000000000E9
-t1254174576
-s233
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/exclamation_point.png
-c000000004C2CAFD00000000000000589
-t1277997008
-s1417
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/lock_button1.png
-c000000004C2CAFD00000000000001932
-t1277997008
-s6450
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/lock_button2.png
-c000000004C2CAFD0000000000000146E
-t1277997008
-s5230
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/lock_button_fpo.png
-c000000004C2CAFD00000000000001CBB
-t1277997008
-s7355
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/main.m
-c000000004C4F622E0000000000000591
-t1280270894
-s1425
-i<UIKit/UIKit.h>
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/orangeslide.png
-c000000004ABB9E820000000000000C29
-t1253809794
-s3113
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/record-map-frame-288x141.png
-c000000004C2CAFD00000000000000239
-t1277997008
-s569
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/save_button.png
-c000000004AC12F700000000000001366
-t1254174576
-s4966
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/save_button_selected.png
-c000000004AC12F7000000000000011B8
-t1254174576
-s4536
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/slider_ball.png
-c000000004ABB9E820000000000000364
-t1253809794
-s868
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/start_button.png
-c000000004AC12F700000000000001165
-t1254174576
-s4453
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/start_button_selected.png
-c000000004AC12F7000000000000011D4
-t1254174576
-s4564
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/whiteButton.png
-c000000004ABB9E820000000000000596
-t1253809794
-s1430
-
-N/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/yellowslide.png
-c000000004ABB9E820000000000000C26
-t1253809794
-s3110
-
-N/var/folders/3M/3Mc6UPbIF4Csdm6nOTNock+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CycleTracks_Prefix-fbmhmvktzqglahbrsxvmiwyaijkq/CycleTracks_Prefix.pch.gch
-t1282073661
-s15765296
-
-NCycleTracks-Info.plist
-c000000004C6AA0610000000000000478
-t1282056289
-s1144
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies304527907#304527907#0(0"0(0#1#0"8614641408#0"0#
-
-CCompileC build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/AboutViewController.o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/AboutViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s303766464.851104
-e303766464.951718
-r1
-xCompileC
-xbuild/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/AboutViewController.o
-x/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/AboutViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@95"Compile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/AboutViewController.m303766464#303766464#0(0"0(0#0#87"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/AboutViewController.m8603283808#2256"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-generated-files.hmap -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-own-target-headers.hmap -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-all-target-headers.hmap -iquote /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-project-headers.hmap -F/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/include -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/DerivedSources/i386 -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/DerivedSources -include /var/folders/3M/3Mc6UPbIF4Csdm6nOTNock+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CycleTracks_Prefix-fbmhmvktzqglahbrsxvmiwyaijkq/CycleTracks_Prefix.pch -c /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/AboutViewController.m -o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/AboutViewController.o0#
-
-CCompileC build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/CDataScanner.o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/CDataScanner.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s303766463.341408
-e303766463.523028
-r1
-xCompileC
-xbuild/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/CDataScanner.o
-x/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/CDataScanner.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@87"Compile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/CDataScanner.m303766463#303766463#0(0"0(0#0#79"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/CDataScanner.m8604814752#2241"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-generated-files.hmap -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-own-target-headers.hmap -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-all-target-headers.hmap -iquote /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-project-headers.hmap -F/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/include -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/DerivedSources/i386 -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/DerivedSources -include /var/folders/3M/3Mc6UPbIF4Csdm6nOTNock+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CycleTracks_Prefix-fbmhmvktzqglahbrsxvmiwyaijkq/CycleTracks_Prefix.pch -c /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/CDataScanner.m -o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/CDataScanner.o0#
-
-CCompileC build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/CDataScanner_Extensions.o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/Extensions/CDataScanner_Extensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s303766463.523132
-e303766463.591913
-r1
-xCompileC
-xbuild/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/CDataScanner_Extensions.o
-x/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/Extensions/CDataScanner_Extensions.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@109"Compile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/Extensions/CDataScanner_Extensions.m303766463#303766463#0(0"0(0#0#101"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/Extensions/CDataScanner_Extensions.m8606030368#2274"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-generated-files.hmap -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-own-target-headers.hmap -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-all-target-headers.hmap -iquote /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-project-headers.hmap -F/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/include -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/DerivedSources/i386 -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/DerivedSources -include /var/folders/3M/3Mc6UPbIF4Csdm6nOTNock+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CycleTracks_Prefix-fbmhmvktzqglahbrsxvmiwyaijkq/CycleTracks_Prefix.pch -c /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/Extensions/CDataScanner_Extensions.m -o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/CDataScanner_Extensions.o0#
-
-CCompileC build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/CJSONDeserializer.o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/JSON/CJSONDeserializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s303766463.823418
-e303766463.899948
-r1
-xCompileC
-xbuild/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/CJSONDeserializer.o
-x/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/JSON/CJSONDeserializer.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@97"Compile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/JSON/CJSONDeserializer.m303766463#303766463#0(0"0(0#0#89"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/JSON/CJSONDeserializer.m8606061024#2256"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-generated-files.hmap -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-own-target-headers.hmap -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-all-target-headers.hmap -iquote /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-project-headers.hmap -F/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/include -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/DerivedSources/i386 -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/DerivedSources -include /var/folders/3M/3Mc6UPbIF4Csdm6nOTNock+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CycleTracks_Prefix-fbmhmvktzqglahbrsxvmiwyaijkq/CycleTracks_Prefix.pch -c /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/JSON/CJSONDeserializer.m -o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/CJSONDeserializer.o0#
-
-CCompileC build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/CJSONScanner.o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/JSON/CJSONScanner.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s303766463.900037
-e303766464.158358
-r1
-xCompileC
-xbuild/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/CJSONScanner.o
-x/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/JSON/CJSONScanner.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@92"Compile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/JSON/CJSONScanner.m303766463#303766464#0(0"0(0#0#84"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/JSON/CJSONScanner.m8604989184#2246"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-generated-files.hmap -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-own-target-headers.hmap -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-all-target-headers.hmap -iquote /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-project-headers.hmap -F/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/include -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/DerivedSources/i386 -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/DerivedSources -include /var/folders/3M/3Mc6UPbIF4Csdm6nOTNock+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CycleTracks_Prefix-fbmhmvktzqglahbrsxvmiwyaijkq/CycleTracks_Prefix.pch -c /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/JSON/CJSONScanner.m -o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/CJSONScanner.o0#
-
-CCompileC build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/CJSONSerializer.o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/JSON/CJSONSerializer.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s303766464.114498
-e303766464.266162
-r1
-xCompileC
-xbuild/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/CJSONSerializer.o
-x/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/JSON/CJSONSerializer.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@95"Compile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/JSON/CJSONSerializer.m303766464#303766464#0(0"0(0#0#87"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/JSON/CJSONSerializer.m8603340512#2252"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-generated-files.hmap -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-own-target-headers.hmap -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-all-target-headers.hmap -iquote /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-project-headers.hmap -F/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/include -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/DerivedSources/i386 -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/DerivedSources -include /var/folders/3M/3Mc6UPbIF4Csdm6nOTNock+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CycleTracks_Prefix-fbmhmvktzqglahbrsxvmiwyaijkq/CycleTracks_Prefix.pch -c /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/JSON/CJSONSerializer.m -o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/CJSONSerializer.o0#
-
-CCompileC build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/Coord.o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Coord.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s303766463.283933
-e303766463.341305
-r1
-xCompileC
-xbuild/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/Coord.o
-x/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Coord.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@73"Compile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Coord.m303766463#303766463#0(0"0(0#0#65"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Coord.m8605804320#2220"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-generated-files.hmap -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-own-target-headers.hmap -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-all-target-headers.hmap -iquote /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-project-headers.hmap -F/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/include -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/DerivedSources/i386 -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/DerivedSources -include /var/folders/3M/3Mc6UPbIF4Csdm6nOTNock+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CycleTracks_Prefix-fbmhmvktzqglahbrsxvmiwyaijkq/CycleTracks_Prefix.pch -c /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Coord.m -o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/Coord.o0#
-
-CCompileC build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/CustomPickerDataSource.o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/CustomPickerDataSource.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s303766462.935348
-e303766463.147149
-r1
-xCompileC
-xbuild/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/CustomPickerDataSource.o
-x/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/CustomPickerDataSource.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@90"Compile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/CustomPickerDataSource.m303766462#303766463#0(0"0(0#0#82"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/CustomPickerDataSource.m8605279488#2254"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-generated-files.hmap -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-own-target-headers.hmap -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-all-target-headers.hmap -iquote /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-project-headers.hmap -F/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/include -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/DerivedSources/i386 -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/DerivedSources -include /var/folders/3M/3Mc6UPbIF4Csdm6nOTNock+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CycleTracks_Prefix-fbmhmvktzqglahbrsxvmiwyaijkq/CycleTracks_Prefix.pch -c /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/CustomPickerDataSource.m -o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/CustomPickerDataSource.o0#
-
-CCompileC build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/CustomView.o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/CustomView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s303766462.830906
-e303766462.935243
-r1
-xCompileC
-xbuild/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/CustomView.o
-x/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/CustomView.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@78"Compile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/CustomView.m303766462#303766462#0(0"0(0#0#70"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/CustomView.m8608596640#2230"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-generated-files.hmap -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-own-target-headers.hmap -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-all-target-headers.hmap -iquote /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-project-headers.hmap -F/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/include -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/DerivedSources/i386 -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/DerivedSources -include /var/folders/3M/3Mc6UPbIF4Csdm6nOTNock+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CycleTracks_Prefix-fbmhmvktzqglahbrsxvmiwyaijkq/CycleTracks_Prefix.pch -c /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/CustomView.m -o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/CustomView.o0#
-
-CCompileC build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/CycleTracksAppDelegate.o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/CycleTracksAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s303766462.080805
-e303766462.311383
-r1
-xCompileC
-xbuild/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/CycleTracksAppDelegate.o
-x/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/CycleTracksAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@98"Compile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/CycleTracksAppDelegate.m303766462#303766462#0(0"0(0#0#90"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/CycleTracksAppDelegate.m8603564928#2262"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-generated-files.hmap -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-own-target-headers.hmap -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-all-target-headers.hmap -iquote /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-project-headers.hmap -F/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/include -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/DerivedSources/i386 -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/DerivedSources -include /var/folders/3M/3Mc6UPbIF4Csdm6nOTNock+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CycleTracks_Prefix-fbmhmvktzqglahbrsxvmiwyaijkq/CycleTracks_Prefix.pch -c /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/CycleTracksAppDelegate.m -o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/CycleTracksAppDelegate.o0#
-
-CCompileC build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/LoadingView.o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/LoadingView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s303766464.951826
-e303766465.118208
-r1
-xCompileC
-xbuild/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/LoadingView.o
-x/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/LoadingView.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@87"Compile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/LoadingView.m303766464#303766465#0(0"0(0#0#79"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/LoadingView.m8600148192#2240"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-generated-files.hmap -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-own-target-headers.hmap -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-all-target-headers.hmap -iquote /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-project-headers.hmap -F/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/include -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/DerivedSources/i386 -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/DerivedSources -include /var/folders/3M/3Mc6UPbIF4Csdm6nOTNock+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CycleTracks_Prefix-fbmhmvktzqglahbrsxvmiwyaijkq/CycleTracks_Prefix.pch -c /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/LoadingView.m -o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/LoadingView.o0#
-
-CCompileC build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/MapCoord.o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/MapCoord.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s303766464.735976
-e303766464.850996
-r1
-xCompileC
-xbuild/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/MapCoord.o
-x/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/MapCoord.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@84"Compile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/MapCoord.m303766464#303766464#0(0"0(0#0#76"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/MapCoord.m8605639904#2234"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-generated-files.hmap -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-own-target-headers.hmap -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-all-target-headers.hmap -iquote /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-project-headers.hmap -F/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/include -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/DerivedSources/i386 -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/DerivedSources -include /var/folders/3M/3Mc6UPbIF4Csdm6nOTNock+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CycleTracks_Prefix-fbmhmvktzqglahbrsxvmiwyaijkq/CycleTracks_Prefix.pch -c /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/MapCoord.m -o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/MapCoord.o0#
-
-CCompileC build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/MapViewController.o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/MapViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s303766464.375206
-e303766464.798154
-r1
-xCompileC
-xbuild/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/MapViewController.o
-x/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/MapViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@93"Compile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/MapViewController.m303766464#303766464#0(0"0(0#0#85"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/MapViewController.m8603728928#2252"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-generated-files.hmap -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-own-target-headers.hmap -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-all-target-headers.hmap -iquote /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-project-headers.hmap -F/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/include -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/DerivedSources/i386 -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/DerivedSources -include /var/folders/3M/3Mc6UPbIF4Csdm6nOTNock+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CycleTracks_Prefix-fbmhmvktzqglahbrsxvmiwyaijkq/CycleTracks_Prefix.pch -c /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/MapViewController.m -o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/MapViewController.o0#
-
-CCompileC build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/NSCharacterSet_Extensions.o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/Extensions/NSCharacterSet_Extensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s303766463.592019
-e303766463.652495
-r1
-xCompileC
-xbuild/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/NSCharacterSet_Extensions.o
-x/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/Extensions/NSCharacterSet_Extensions.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@111"Compile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/Extensions/NSCharacterSet_Extensions.m303766463#303766463#0(0"0(0#0#103"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/Extensions/NSCharacterSet_Extensions.m8604427840#2278"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-generated-files.hmap -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-own-target-headers.hmap -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-all-target-headers.hmap -iquote /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-project-headers.hmap -F/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/include -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/DerivedSources/i386 -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/DerivedSources -include /var/folders/3M/3Mc6UPbIF4Csdm6nOTNock+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CycleTracks_Prefix-fbmhmvktzqglahbrsxvmiwyaijkq/CycleTracks_Prefix.pch -c /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/Extensions/NSCharacterSet_Extensions.m -o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/NSCharacterSet_Extensions.o0#
-
-CCompileC build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/NSDictionary_JSONExtensions.o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/Extensions/NSDictionary_JSONExtensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s303766463.652594
-e303766463.717248
-r1
-xCompileC
-xbuild/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/NSDictionary_JSONExtensions.o
-x/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/Extensions/NSDictionary_JSONExtensions.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@113"Compile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/Extensions/NSDictionary_JSONExtensions.m303766463#303766463#0(0"0(0#0#105"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/Extensions/NSDictionary_JSONExtensions.m8611665632#2282"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-generated-files.hmap -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-own-target-headers.hmap -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-all-target-headers.hmap -iquote /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-project-headers.hmap -F/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/include -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/DerivedSources/i386 -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/DerivedSources -include /var/folders/3M/3Mc6UPbIF4Csdm6nOTNock+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CycleTracks_Prefix-fbmhmvktzqglahbrsxvmiwyaijkq/CycleTracks_Prefix.pch -c /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/Extensions/NSDictionary_JSONExtensions.m -o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/NSDictionary_JSONExtensions.o0#
-
-CCompileC build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/NSScanner_Extensions.o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/Extensions/NSScanner_Extensions.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s303766463.717347
-e303766463.823317
-r1
-xCompileC
-xbuild/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/NSScanner_Extensions.o
-x/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/Extensions/NSScanner_Extensions.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@106"Compile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/Extensions/NSScanner_Extensions.m303766463#303766463#0(0"0(0#0#98"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/Extensions/NSScanner_Extensions.m8604983104#2268"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-generated-files.hmap -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-own-target-headers.hmap -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-all-target-headers.hmap -iquote /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-project-headers.hmap -F/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/include -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/DerivedSources/i386 -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/DerivedSources -include /var/folders/3M/3Mc6UPbIF4Csdm6nOTNock+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CycleTracks_Prefix-fbmhmvktzqglahbrsxvmiwyaijkq/CycleTracks_Prefix.pch -c /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Source/Extensions/NSScanner_Extensions.m -o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/NSScanner_Extensions.o0#
-
-CCompileC build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/PersonalInfoViewController.o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/PersonalInfoViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s303766464.266273
-e303766464.735875
-r1
-xCompileC
-xbuild/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/PersonalInfoViewController.o
-x/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/PersonalInfoViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@102"Compile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/PersonalInfoViewController.m303766464#303766464#0(0"0(0#0#94"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/PersonalInfoViewController.m8610950432#2270"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-generated-files.hmap -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-own-target-headers.hmap -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-all-target-headers.hmap -iquote /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-project-headers.hmap -F/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/include -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/DerivedSources/i386 -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/DerivedSources -include /var/folders/3M/3Mc6UPbIF4Csdm6nOTNock+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CycleTracks_Prefix-fbmhmvktzqglahbrsxvmiwyaijkq/CycleTracks_Prefix.pch -c /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/PersonalInfoViewController.m -o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/PersonalInfoViewController.o0#
-
-CCompileC build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/PickerViewController.o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/PickerViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s303766463.056288
-e303766463.283823
-r1
-xCompileC
-xbuild/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/PickerViewController.o
-x/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/PickerViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@96"Compile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/PickerViewController.m303766463#303766463#0(0"0(0#0#88"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/PickerViewController.m8604015168#2258"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-generated-files.hmap -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-own-target-headers.hmap -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-all-target-headers.hmap -iquote /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-project-headers.hmap -F/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/include -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/DerivedSources/i386 -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/DerivedSources -include /var/folders/3M/3Mc6UPbIF4Csdm6nOTNock+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CycleTracks_Prefix-fbmhmvktzqglahbrsxvmiwyaijkq/CycleTracks_Prefix.pch -c /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/PickerViewController.m -o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/PickerViewController.o0#
-
-CCompileC build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/RecordTripViewController.o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/RecordTripViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s303766462.179532
-e303766463.056189
-r1
-xCompileC
-xbuild/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/RecordTripViewController.o
-x/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/RecordTripViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/RecordTripViewController.m: In function '-[RecordTripViewController locationManager:didUpdateToLocation:fromLocation:]':
-o/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/RecordTripViewController.m:73: warning: 'getDistanceFrom:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocation.h:237)
-lSLF07#2@100"Compile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/RecordTripViewController.m303766462#303766463#0(498"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/RecordTripViewController.m: In function '-[RecordTripViewController locationManager:didUpdateToLocation:fromLocation:]':/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/RecordTripViewController.m:73: warning: 'getDistanceFrom:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocation.h:237)1(22@204"'getDistanceFrom:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocation.h:237)303766462#187#311#0(6@92"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/RecordTripViewController.m302561900#73#0#73#0#33"'*' is deprecated (declared at *)0(0#0#92"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/RecordTripViewController.m8611474560#2266"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-generated-files.hmap -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-own-target-headers.hmap -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-all-target-headers.hmap -iquote /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-project-headers.hmap -F/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/include -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/DerivedSources/i386 -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/DerivedSources -include /var/folders/3M/3Mc6UPbIF4Csdm6nOTNock+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CycleTracks_Prefix-fbmhmvktzqglahbrsxvmiwyaijkq/CycleTracks_Prefix.pch -c /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/RecordTripViewController.m -o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/RecordTripViewController.o0#
-
-CCompileC build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/ReminderManager.o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/ReminderManager.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s303766464.798268
-e303766465.080945
-r1
-xCompileC
-xbuild/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/ReminderManager.o
-x/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/ReminderManager.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@91"Compile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/ReminderManager.m303766464#303766465#0(0"0(0#0#83"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/ReminderManager.m8604612896#2248"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-generated-files.hmap -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-own-target-headers.hmap -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-all-target-headers.hmap -iquote /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-project-headers.hmap -F/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/include -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/DerivedSources/i386 -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/DerivedSources -include /var/folders/3M/3Mc6UPbIF4Csdm6nOTNock+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CycleTracks_Prefix-fbmhmvktzqglahbrsxvmiwyaijkq/CycleTracks_Prefix.pch -c /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/ReminderManager.m -o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/ReminderManager.o0#
-
-CCompileC build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/SaveRequest.o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/SaveRequest.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s303766464.158461
-e303766464.308598
-r1
-xCompileC
-xbuild/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/SaveRequest.o
-x/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/SaveRequest.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@87"Compile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/SaveRequest.m303766464#303766464#0(0"0(0#0#79"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/SaveRequest.m8598838368#2240"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-generated-files.hmap -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-own-target-headers.hmap -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-all-target-headers.hmap -iquote /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-project-headers.hmap -F/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/include -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/DerivedSources/i386 -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/DerivedSources -include /var/folders/3M/3Mc6UPbIF4Csdm6nOTNock+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CycleTracks_Prefix-fbmhmvktzqglahbrsxvmiwyaijkq/CycleTracks_Prefix.pch -c /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/SaveRequest.m -o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/SaveRequest.o0#
-
-CCompileC build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/SavedTripsViewController.o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/SavedTripsViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s303766462.311480
-e303766462.830721
-r1
-xCompileC
-xbuild/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/SavedTripsViewController.o
-x/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/SavedTripsViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@100"Compile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/SavedTripsViewController.m303766462#303766462#0(0"0(0#0#92"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/SavedTripsViewController.m8605322112#2266"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-generated-files.hmap -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-own-target-headers.hmap -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-all-target-headers.hmap -iquote /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-project-headers.hmap -F/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/include -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/DerivedSources/i386 -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/DerivedSources -include /var/folders/3M/3Mc6UPbIF4Csdm6nOTNock+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CycleTracks_Prefix-fbmhmvktzqglahbrsxvmiwyaijkq/CycleTracks_Prefix.pch -c /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/SavedTripsViewController.m -o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/SavedTripsViewController.o0#
-
-CCompileC build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/Trip.o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Trip.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s303766463.147248
-e303766463.208701
-r1
-xCompileC
-xbuild/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/Trip.o
-x/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Trip.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@72"Compile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Trip.m303766463#303766463#0(0"0(0#0#64"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Trip.m8590469984#2218"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-generated-files.hmap -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-own-target-headers.hmap -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-all-target-headers.hmap -iquote /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-project-headers.hmap -F/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/include -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/DerivedSources/i386 -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/DerivedSources -include /var/folders/3M/3Mc6UPbIF4Csdm6nOTNock+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CycleTracks_Prefix-fbmhmvktzqglahbrsxvmiwyaijkq/CycleTracks_Prefix.pch -c /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Trip.m -o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/Trip.o0#
-
-CCompileC build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/TripManager.o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/TripManager.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s303766463.208813
-e303766464.114403
-r1
-xCompileC
-xbuild/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/TripManager.o
-x/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/TripManager.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/TripManager.m: In function '-[TripManager distanceFrom:to:realTime:]':
-o/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/TripManager.m:213: warning: 'getDistanceFrom:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocation.h:237)
-lSLF07#2@87"Compile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/TripManager.m303766463#303766464#0(436"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/TripManager.m: In function '-[TripManager distanceFrom:to:realTime:]':/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/TripManager.m:213: warning: 'getDistanceFrom:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocation.h:237)1(22@204"'getDistanceFrom:' is deprecated (declared at /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CLLocation.h:237)303766463#137#299#0(6@79"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/TripManager.m301963694#213#0#213#0#33"'*' is deprecated (declared at *)0(0#0#79"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/TripManager.m8611663424#2240"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-generated-files.hmap -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-own-target-headers.hmap -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-all-target-headers.hmap -iquote /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-project-headers.hmap -F/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/include -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/DerivedSources/i386 -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/DerivedSources -include /var/folders/3M/3Mc6UPbIF4Csdm6nOTNock+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CycleTracks_Prefix-fbmhmvktzqglahbrsxvmiwyaijkq/CycleTracks_Prefix.pch -c /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Classes/TripManager.m -o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/TripManager.o0#
-
-CCompileC build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/User.o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/User.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s303766464.308699
-e303766464.375038
-r1
-xCompileC
-xbuild/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/User.o
-x/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/User.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@72"Compile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/User.m303766464#303766464#0(0"0(0#0#64"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/User.m8605556640#2218"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-generated-files.hmap -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-own-target-headers.hmap -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-all-target-headers.hmap -iquote /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-project-headers.hmap -F/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/include -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/DerivedSources/i386 -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/DerivedSources -include /var/folders/3M/3Mc6UPbIF4Csdm6nOTNock+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CycleTracks_Prefix-fbmhmvktzqglahbrsxvmiwyaijkq/CycleTracks_Prefix.pch -c /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/User.m -o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/User.o0#
-
-CCompileC build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/main.o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s303766462.030632
-e303766462.179430
-r1
-xCompileC
-xbuild/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/main.o
-x/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@72"Compile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/main.m303766462#303766462#0(0"0(0#0#64"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/main.m8605610048#2218"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-generated-files.hmap -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-own-target-headers.hmap -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-all-target-headers.hmap -iquote /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-project-headers.hmap -F/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/include -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/DerivedSources/i386 -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/DerivedSources -include /var/folders/3M/3Mc6UPbIF4Csdm6nOTNock+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CycleTracks_Prefix-fbmhmvktzqglahbrsxvmiwyaijkq/CycleTracks_Prefix.pch -c /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/main.m -o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/main.o0#
-
-CCompileXIB /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/MainWindow.xib
-s303766459.935836
-e303766460.579406
-r1
-xCompileXIB
-x/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib303766459#303766460#0(0"0(0#0#72"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/MainWindow.xib8606681376#635"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 2.2.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/MainWindow.nib /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
-
-CCompileXIB /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/MapViewController.xib
-s303766459.479590
-e303766459.910344
-r1
-xCompileXIB
-x/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/MapViewController.xib
-lSLF07#2@32"CompileXIB MapViewController.xib303766459#303766459#0(0"0(0#0#79"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/MapViewController.xib8603757632#649"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 2.2.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/MapViewController.nib /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/MapViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
-
-CCompileXIB /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/PersonalInfo.xib
-s303766460.470159
-e303766460.859465
-r1
-xCompileXIB
-x/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/PersonalInfo.xib
-lSLF07#2@27"CompileXIB PersonalInfo.xib303766460#303766460#0(0"0(0#0#74"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/PersonalInfo.xib8611523488#639"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 2.2.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/PersonalInfo.nib /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/PersonalInfo.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
-
-CCompileXIB /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/RecordMap.xib
-s303766460.580909
-e303766461.157053
-r1
-xCompileXIB
-x/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/RecordMap.xib
-lSLF07#2@24"CompileXIB RecordMap.xib303766460#303766461#0(0"0(0#0#71"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/RecordMap.xib8611697824#633"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 2.2.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/RecordMap.nib /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/RecordMap.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
-
-CCompileXIB /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/RecordNewTrip.xib
-s303766459.952226
-e303766460.470047
-r1
-xCompileXIB
-x/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/RecordNewTrip.xib
-lSLF07#2@28"CompileXIB RecordNewTrip.xib303766459#303766460#0(0"0(0#0#75"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/RecordNewTrip.xib8606227712#641"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 2.2.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/RecordNewTrip.nib /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/RecordNewTrip.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
-
-CCompileXIB /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TripPurposePicker.xib
-s303766459.226575
-e303766459.910214
-r1
-xCompileXIB
-x/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TripPurposePicker.xib
-lSLF07#2@32"CompileXIB TripPurposePicker.xib303766459#303766459#0(0"0(0#0#79"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TripPurposePicker.xib8612612000#649"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 2.2.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/TripPurposePicker.nib /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TripPurposePicker.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
-
-CCopyPlistFile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/dist.plist dist.plist
-s303766459.443729
-e303766459.470696
-r1
-xCopyPlistFile
-x/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/dist.plist
-xdist.plist
-lSLF07#2@15"Copy dist.plist303766459#303766459#0(0"0(0#0#68"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/dist.plist8605323456#429"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 dist.plist --outdir /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app0#
-
-CCopyTiffFile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/commute.tif "TripPurposePickerIcons v2/commute.tif"
-s303766459.227931
-e303766459.251100
-r1
-xCopyTiffFile
-x/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/commute.tif
-xTripPurposePickerIcons v2/commute.tif
-lSLF07#2@42"Copy TripPurposePickerIcons v2/commute.tif303766459#303766459#0(0"0(0#0#95"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TripPurposePickerIcons v2/commute.tif8611610080#439"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff "TripPurposePickerIcons v2/commute.tif" --outdir /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app0#
-
-CCopyTiffFile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/errands.tif "TripPurposePickerIcons v2/errands.tif"
-s303766459.251198
-e303766459.269003
-r1
-xCopyTiffFile
-x/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/errands.tif
-xTripPurposePickerIcons v2/errands.tif
-lSLF07#2@42"Copy TripPurposePickerIcons v2/errands.tif303766459#303766459#0(0"0(0#0#95"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TripPurposePickerIcons v2/errands.tif8611603680#439"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff "TripPurposePickerIcons v2/errands.tif" --outdir /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app0#
-
-CCopyTiffFile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/exercise.tif "TripPurposePickerIcons v2/exercise.tif"
-s303766459.269100
-e303766459.287028
-r1
-xCopyTiffFile
-x/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/exercise.tif
-xTripPurposePickerIcons v2/exercise.tif
-lSLF07#2@43"Copy TripPurposePickerIcons v2/exercise.tif303766459#303766459#0(0"0(0#0#96"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TripPurposePickerIcons v2/exercise.tif8612218880#440"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff "TripPurposePickerIcons v2/exercise.tif" --outdir /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app0#
-
-CCopyTiffFile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/other.tif "TripPurposePickerIcons v2/other.tif"
-s303766459.287126
-e303766459.306449
-r1
-xCopyTiffFile
-x/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/other.tif
-xTripPurposePickerIcons v2/other.tif
-lSLF07#2@40"Copy TripPurposePickerIcons v2/other.tif303766459#303766459#0(0"0(0#0#93"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TripPurposePickerIcons v2/other.tif8611881984#437"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff "TripPurposePickerIcons v2/other.tif" --outdir /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app0#
-
-CCopyTiffFile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/school.tif "TripPurposePickerIcons v2/school.tif"
-s303766459.306541
-e303766459.324036
-r1
-xCopyTiffFile
-x/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/school.tif
-xTripPurposePickerIcons v2/school.tif
-lSLF07#2@41"Copy TripPurposePickerIcons v2/school.tif303766459#303766459#0(0"0(0#0#94"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TripPurposePickerIcons v2/school.tif8611549536#438"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff "TripPurposePickerIcons v2/school.tif" --outdir /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app0#
-
-CCopyTiffFile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/shopping.tif "TripPurposePickerIcons v2/shopping.tif"
-s303766459.324129
-e303766459.341385
-r1
-xCopyTiffFile
-x/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/shopping.tif
-xTripPurposePickerIcons v2/shopping.tif
-lSLF07#2@43"Copy TripPurposePickerIcons v2/shopping.tif303766459#303766459#0(0"0(0#0#96"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TripPurposePickerIcons v2/shopping.tif8611310880#440"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff "TripPurposePickerIcons v2/shopping.tif" --outdir /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app0#
-
-CCopyTiffFile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/social.tif "TripPurposePickerIcons v2/social.tif"
-s303766459.341483
-e303766459.394497
-r1
-xCopyTiffFile
-x/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/social.tif
-xTripPurposePickerIcons v2/social.tif
-lSLF07#2@41"Copy TripPurposePickerIcons v2/social.tif303766459#303766459#0(0"0(0#0#94"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TripPurposePickerIcons v2/social.tif8608805440#438"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff "TripPurposePickerIcons v2/social.tif" --outdir /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app0#
-
-CCopyTiffFile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/work-related.tif "TripPurposePickerIcons v2/work-related.tif"
-s303766459.394602
-e303766459.417173
-r1
-xCopyTiffFile
-x/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/work-related.tif
-xTripPurposePickerIcons v2/work-related.tif
-lSLF07#2@47"Copy TripPurposePickerIcons v2/work-related.tif303766459#303766459#0(0"0(0#0#100"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TripPurposePickerIcons v2/work-related.tif8612923456#444"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff "TripPurposePickerIcons v2/work-related.tif" --outdir /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app0#
-
-CCpResource build/Release-iphonesimulator/CycleTracks.app/20-gear2.png TabBarIcons/../20-gear2.png
-s303766460.579496
-e303766460.586441
-r1
-xCpResource
-xbuild/Release-iphonesimulator/CycleTracks.app/20-gear2.png
-xTabBarIcons/../20-gear2.png
-lSLF07#2@32"Copy TabBarIcons/../20-gear2.png303766460#303766460#0(0"0(0#0#85"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TabBarIcons/../20-gear2.png8612320096#555"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TabBarIcons/../20-gear2.png /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app0#
-
-CCpResource build/Release-iphonesimulator/CycleTracks.app/ArrowButton.png ArrowButton.png
-s303766459.430042
-e303766459.443659
-r1
-xCpResource
-xbuild/Release-iphonesimulator/CycleTracks.app/ArrowButton.png
-xArrowButton.png
-lSLF07#2@20"Copy ArrowButton.png303766459#303766459#0(0"0(0#0#73"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/ArrowButton.png8608076224#543"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/ArrowButton.png /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app0#
-
-CCpResource build/Release-iphonesimulator/CycleTracks.app/ClearArrowButton.png ClearArrowButton.png
-s303766459.437551
-e303766459.449201
-r1
-xCpResource
-xbuild/Release-iphonesimulator/CycleTracks.app/ClearArrowButton.png
-xClearArrowButton.png
-lSLF07#2@25"Copy ClearArrowButton.png303766459#303766459#0(0"0(0#0#78"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/ClearArrowButton.png8606094560#548"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/ClearArrowButton.png /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app0#
-
-CCpResource build/Release-iphonesimulator/CycleTracks.app/ClearArrowButtonDark.png ClearArrowButtonDark.png
-s303766459.439556
-e303766459.456063
-r1
-xCpResource
-xbuild/Release-iphonesimulator/CycleTracks.app/ClearArrowButtonDark.png
-xClearArrowButtonDark.png
-lSLF07#2@29"Copy ClearArrowButtonDark.png303766459#303766459#0(0"0(0#0#82"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/ClearArrowButtonDark.png8605872544#552"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/ClearArrowButtonDark.png /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app0#
-
-CCpResource build/Release-iphonesimulator/CycleTracks.app/ClearArrowButtonWideDark.png ClearArrowButtonWideDark.png
-s303766459.441350
-e303766459.460948
-r1
-xCpResource
-xbuild/Release-iphonesimulator/CycleTracks.app/ClearArrowButtonWideDark.png
-xClearArrowButtonWideDark.png
-lSLF07#2@33"Copy ClearArrowButtonWideDark.png303766459#303766459#0(0"0(0#0#86"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/ClearArrowButtonWideDark.png8605632448#556"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/ClearArrowButtonWideDark.png /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app0#
-
-CCpResource build/Release-iphonesimulator/CycleTracks.app/Default.jpg ../../Default.jpg
-r0
-
-CCpResource build/Release-iphonesimulator/CycleTracks.app/Default.png Default.png
-s303766460.867565
-e303766460.881014
-r1
-xCpResource
-xbuild/Release-iphonesimulator/CycleTracks.app/Default.png
-xDefault.png
-lSLF07#2@16"Copy Default.png303766460#303766460#0(0"0(0#0#69"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Default.png8604309120#539"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Default.png /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app0#
-
-CCpResource build/Release-iphonesimulator/CycleTracks.app/GreenCheckMark.png GreenCheckMark.png
-s303766459.911633
-e303766459.932164
-r1
-xCpResource
-xbuild/Release-iphonesimulator/CycleTracks.app/GreenCheckMark.png
-xGreenCheckMark.png
-lSLF07#2@23"Copy GreenCheckMark.png303766459#303766459#0(0"0(0#0#76"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/GreenCheckMark.png8600920128#546"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/GreenCheckMark.png /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app0#
-
-CCpResource build/Release-iphonesimulator/CycleTracks.app/GreenCheckMark2.png GreenCheckMark2.png
-s303766459.912510
-e303766459.932265
-r1
-xCpResource
-xbuild/Release-iphonesimulator/CycleTracks.app/GreenCheckMark2.png
-xGreenCheckMark2.png
-lSLF07#2@24"Copy GreenCheckMark2.png303766459#303766459#0(0"0(0#0#77"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/GreenCheckMark2.png8598978944#547"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/GreenCheckMark2.png /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app0#
-
-CCpResource build/Release-iphonesimulator/CycleTracks.app/GreenCheckMark3.png GreenCheckMark3.png
-s303766459.915823
-e303766459.940380
-r1
-xCpResource
-xbuild/Release-iphonesimulator/CycleTracks.app/GreenCheckMark3.png
-xGreenCheckMark3.png
-lSLF07#2@24"Copy GreenCheckMark3.png303766459#303766459#0(0"0(0#0#77"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/GreenCheckMark3.png8604475520#547"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/GreenCheckMark3.png /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app0#
-
-CCpResource build/Release-iphonesimulator/CycleTracks.app/Icon.png ../../Icon.png
-r0
-
-CCpResource build/Release-iphonesimulator/CycleTracks.app/Icon.png Icon.png
-s303766460.865904
-e303766460.876698
-r1
-xCpResource
-xbuild/Release-iphonesimulator/CycleTracks.app/Icon.png
-xIcon.png
-lSLF07#2@13"Copy Icon.png303766460#303766460#0(0"0(0#0#66"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Icon.png8604771968#536"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/Icon.png /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app0#
-
-CCpResource build/Release-iphonesimulator/CycleTracks.app/LCD-screen-288x126.png LCD-screen-288x126.png
-s303766460.859623
-e303766460.869418
-r1
-xCpResource
-xbuild/Release-iphonesimulator/CycleTracks.app/LCD-screen-288x126.png
-xLCD-screen-288x126.png
-lSLF07#2@27"Copy LCD-screen-288x126.png303766460#303766460#0(0"0(0#0#80"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/LCD-screen-288x126.png8605646176#550"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/LCD-screen-288x126.png /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app0#
-
-CCpResource build/Release-iphonesimulator/CycleTracks.app/LargeCounter.png LargeCounter.png
-s303766459.227282
-e303766459.232972
-r1
-xCpResource
-xbuild/Release-iphonesimulator/CycleTracks.app/LargeCounter.png
-xLargeCounter.png
-lSLF07#2@21"Copy LargeCounter.png303766459#303766459#0(0"0(0#0#74"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/LargeCounter.png8612545536#544"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/LargeCounter.png /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app0#
-
-CCpResource build/Release-iphonesimulator/CycleTracks.app/LockIcon.png LockIcon.png
-s303766459.926394
-e303766459.940509
-r1
-xCpResource
-xbuild/Release-iphonesimulator/CycleTracks.app/LockIcon.png
-xLockIcon.png
-lSLF07#2@17"Copy LockIcon.png303766459#303766459#0(0"0(0#0#70"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/LockIcon.png8612126816#540"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/LockIcon.png /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app0#
-
-CCpResource build/Release-iphonesimulator/CycleTracks.app/MapCoord.png MapCoord.png
-s303766459.910424
-e303766459.932049
-r1
-xCpResource
-xbuild/Release-iphonesimulator/CycleTracks.app/MapCoord.png
-xMapCoord.png
-lSLF07#2@17"Copy MapCoord.png303766459#303766459#0(0"0(0#0#70"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/MapCoord.png8604027168#540"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/MapCoord.png /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app0#
-
-CCpResource build/Release-iphonesimulator/CycleTracks.app/OpacityMask80.png OpacityMask80.png
-s303766459.432325
-e303766459.446850
-r1
-xCpResource
-xbuild/Release-iphonesimulator/CycleTracks.app/OpacityMask80.png
-xOpacityMask80.png
-lSLF07#2@22"Copy OpacityMask80.png303766459#303766459#0(0"0(0#0#75"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/OpacityMask80.png8606556928#545"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/OpacityMask80.png /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app0#
-
-CCpResource build/Release-iphonesimulator/CycleTracks.app/OpacityMaskWindow.png OpacityMaskWindow.png
-s303766459.434894
-e303766459.452067
-r1
-xCpResource
-xbuild/Release-iphonesimulator/CycleTracks.app/OpacityMaskWindow.png
-xOpacityMaskWindow.png
-lSLF07#2@26"Copy OpacityMaskWindow.png303766459#303766459#0(0"0(0#0#79"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/OpacityMaskWindow.png8606243520#549"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/OpacityMaskWindow.png /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app0#
-
-CCpResource build/Release-iphonesimulator/CycleTracks.app/SlideToUnlock.png SlideToUnlock.png
-s303766459.420528
-e303766459.434723
-r1
-xCpResource
-xbuild/Release-iphonesimulator/CycleTracks.app/SlideToUnlock.png
-xSlideToUnlock.png
-lSLF07#2@22"Copy SlideToUnlock.png303766459#303766459#0(0"0(0#0#75"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/SlideToUnlock.png8611929248#545"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/SlideToUnlock.png /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app0#
-
-CCpResource build/Release-iphonesimulator/CycleTracks.app/UnlockIcon.png UnlockIcon.png
-s303766459.928190
-e303766459.944693
-r1
-xCpResource
-xbuild/Release-iphonesimulator/CycleTracks.app/UnlockIcon.png
-xUnlockIcon.png
-lSLF07#2@19"Copy UnlockIcon.png303766459#303766459#0(0"0(0#0#72"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/UnlockIcon.png8611514048#542"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/UnlockIcon.png /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app0#
-
-CCpResource build/Release-iphonesimulator/CycleTracks.app/bicycle-bell-normalized.aiff bicycle-bell-normalized.aiff
-s303766459.914103
-e303766459.932364
-r1
-xCpResource
-xbuild/Release-iphonesimulator/CycleTracks.app/bicycle-bell-normalized.aiff
-xbicycle-bell-normalized.aiff
-lSLF07#2@33"Copy bicycle-bell-normalized.aiff303766459#303766459#0(0"0(0#0#86"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/bicycle-bell-normalized.aiff8606544608#556"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/bicycle-bell-normalized.aiff /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app0#
-
-CCpResource build/Release-iphonesimulator/CycleTracks.app/commuter2.png "TripPurposePickerIcons v2/commuter2.png"
-s303766459.924608
-e303766459.937849
-r1
-xCpResource
-xbuild/Release-iphonesimulator/CycleTracks.app/commuter2.png
-xTripPurposePickerIcons v2/commuter2.png
-lSLF07#2@44"Copy TripPurposePickerIcons v2/commuter2.png303766459#303766459#0(0"0(0#0#97"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TripPurposePickerIcons v2/commuter2.png8612738880#569"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks "/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TripPurposePickerIcons v2/commuter2.png" /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app0#
-
-CCpResource build/Release-iphonesimulator/CycleTracks.app/exclamation_point.png exclamation_point.png
-s303766459.911110
-e303766459.937715
-r1
-xCpResource
-xbuild/Release-iphonesimulator/CycleTracks.app/exclamation_point.png
-xexclamation_point.png
-lSLF07#2@26"Copy exclamation_point.png303766459#303766459#0(0"0(0#0#79"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/exclamation_point.png8603689568#549"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/exclamation_point.png /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app0#
-
-CCpResource build/Release-iphonesimulator/CycleTracks.app/lock_button1.png lock_button1.png
-s303766459.929981
-e303766459.952145
-r1
-xCpResource
-xbuild/Release-iphonesimulator/CycleTracks.app/lock_button1.png
-xlock_button1.png
-lSLF07#2@21"Copy lock_button1.png303766459#303766459#0(0"0(0#0#74"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/lock_button1.png8611413344#544"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/lock_button1.png /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app0#
-
-CCpResource build/Release-iphonesimulator/CycleTracks.app/lock_button2.png lock_button2.png
-s303766459.932432
-e303766459.946484
-r1
-xCpResource
-xbuild/Release-iphonesimulator/CycleTracks.app/lock_button2.png
-xlock_button2.png
-lSLF07#2@21"Copy lock_button2.png303766459#303766459#0(0"0(0#0#74"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/lock_button2.png8608792832#544"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/lock_button2.png /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app0#
-
-CCpResource build/Release-iphonesimulator/CycleTracks.app/lock_button_fpo.png lock_button_fpo.png
-s303766459.934096
-e303766459.950279
-r1
-xCpResource
-xbuild/Release-iphonesimulator/CycleTracks.app/lock_button_fpo.png
-xlock_button_fpo.png
-lSLF07#2@24"Copy lock_button_fpo.png303766459#303766459#0(0"0(0#0#77"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/lock_button_fpo.png8608610720#547"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/lock_button_fpo.png /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app0#
-
-CCpResource build/Release-iphonesimulator/CycleTracks.app/orangeslide.png orangeslide.png
-s303766459.426444
-e303766459.443439
-r1
-xCpResource
-xbuild/Release-iphonesimulator/CycleTracks.app/orangeslide.png
-xorangeslide.png
-lSLF07#2@20"Copy orangeslide.png303766459#303766459#0(0"0(0#0#73"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/orangeslide.png8608788608#543"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/orangeslide.png /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app0#
-
-CCpResource build/Release-iphonesimulator/CycleTracks.app/record-map-frame-288x141.png record-map-frame-288x141.png
-s303766460.861256
-e303766460.872841
-r1
-xCpResource
-xbuild/Release-iphonesimulator/CycleTracks.app/record-map-frame-288x141.png
-xrecord-map-frame-288x141.png
-lSLF07#2@33"Copy record-map-frame-288x141.png303766460#303766460#0(0"0(0#0#86"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/record-map-frame-288x141.png8603285920#556"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/record-map-frame-288x141.png /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app0#
-
-CCpResource build/Release-iphonesimulator/CycleTracks.app/save_button.png save_button.png
-s303766459.470777
-e303766459.481560
-r1
-xCpResource
-xbuild/Release-iphonesimulator/CycleTracks.app/save_button.png
-xsave_button.png
-lSLF07#2@20"Copy save_button.png303766459#303766459#0(0"0(0#0#73"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/save_button.png8598945600#543"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/save_button.png /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app0#
-
-CCpResource build/Release-iphonesimulator/CycleTracks.app/save_button_selected.png save_button_selected.png
-s303766459.472885
-e303766459.481685
-r1
-xCpResource
-xbuild/Release-iphonesimulator/CycleTracks.app/save_button_selected.png
-xsave_button_selected.png
-lSLF07#2@29"Copy save_button_selected.png303766459#303766459#0(0"0(0#0#82"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/save_button_selected.png8605152224#552"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/save_button_selected.png /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app0#
-
-CCpResource build/Release-iphonesimulator/CycleTracks.app/settings_icon2.png TabBarIcons/settings_icon2.png
-s303766460.861966
-e303766460.872393
-r1
-xCpResource
-xbuild/Release-iphonesimulator/CycleTracks.app/settings_icon2.png
-xTabBarIcons/settings_icon2.png
-lSLF07#2@35"Copy TabBarIcons/settings_icon2.png303766460#303766460#0(0"0(0#0#88"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TabBarIcons/settings_icon2.png8605383200#558"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TabBarIcons/settings_icon2.png /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app0#
-
-CCpResource build/Release-iphonesimulator/CycleTracks.app/slider_ball.png slider_ball.png
-s303766459.422768
-e303766459.434826
-r1
-xCpResource
-xbuild/Release-iphonesimulator/CycleTracks.app/slider_ball.png
-xslider_ball.png
-lSLF07#2@20"Copy slider_ball.png303766459#303766459#0(0"0(0#0#73"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/slider_ball.png8611545984#543"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/slider_ball.png /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app0#
-
-CCpResource build/Release-iphonesimulator/CycleTracks.app/start_button.png start_button.png
-s303766459.474747
-e303766459.488791
-r1
-xCpResource
-xbuild/Release-iphonesimulator/CycleTracks.app/start_button.png
-xstart_button.png
-lSLF07#2@21"Copy start_button.png303766459#303766459#0(0"0(0#0#74"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/start_button.png8598971136#544"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/start_button.png /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app0#
-
-CCpResource build/Release-iphonesimulator/CycleTracks.app/start_button_selected.png start_button_selected.png
-s303766459.477017
-e303766459.484572
-r1
-xCpResource
-xbuild/Release-iphonesimulator/CycleTracks.app/start_button_selected.png
-xstart_button_selected.png
-lSLF07#2@30"Copy start_button_selected.png303766459#303766459#0(0"0(0#0#83"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/start_button_selected.png8604835552#553"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/start_button_selected.png /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app0#
-
-CCpResource build/Release-iphonesimulator/CycleTracks.app/tabbar_instructions.png TabBarIcons/tabbar_instructions.png
-s303766460.862569
-e303766460.871052
-r1
-xCpResource
-xbuild/Release-iphonesimulator/CycleTracks.app/tabbar_instructions.png
-xTabBarIcons/tabbar_instructions.png
-lSLF07#2@40"Copy TabBarIcons/tabbar_instructions.png303766460#303766460#0(0"0(0#0#93"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TabBarIcons/tabbar_instructions.png8605230720#563"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TabBarIcons/tabbar_instructions.png /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app0#
-
-CCpResource build/Release-iphonesimulator/CycleTracks.app/tabbar_record.png TabBarIcons/tabbar_record.png
-s303766459.417265
-e303766459.434496
-r1
-xCpResource
-xbuild/Release-iphonesimulator/CycleTracks.app/tabbar_record.png
-xTabBarIcons/tabbar_record.png
-lSLF07#2@34"Copy TabBarIcons/tabbar_record.png303766459#303766459#0(0"0(0#0#87"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TabBarIcons/tabbar_record.png8612401888#557"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TabBarIcons/tabbar_record.png /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app0#
-
-CCpResource build/Release-iphonesimulator/CycleTracks.app/tabbar_settings.png TabBarIcons/tabbar_settings.png
-s303766460.864187
-e303766460.876016
-r1
-xCpResource
-xbuild/Release-iphonesimulator/CycleTracks.app/tabbar_settings.png
-xTabBarIcons/tabbar_settings.png
-lSLF07#2@36"Copy TabBarIcons/tabbar_settings.png303766460#303766460#0(0"0(0#0#89"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TabBarIcons/tabbar_settings.png8605103456#559"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TabBarIcons/tabbar_settings.png /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app0#
-
-CCpResource build/Release-iphonesimulator/CycleTracks.app/tabbar_view.png TabBarIcons/tabbar_view.png
-s303766459.418576
-e303766459.434617
-r1
-xCpResource
-xbuild/Release-iphonesimulator/CycleTracks.app/tabbar_view.png
-xTabBarIcons/tabbar_view.png
-lSLF07#2@32"Copy TabBarIcons/tabbar_view.png303766459#303766459#0(0"0(0#0#85"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TabBarIcons/tabbar_view.png8612219264#555"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/TabBarIcons/tabbar_view.png /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app0#
-
-CCpResource build/Release-iphonesimulator/CycleTracks.app/whiteButton.png whiteButton.png
-s303766459.428155
-e303766459.443555
-r1
-xCpResource
-xbuild/Release-iphonesimulator/CycleTracks.app/whiteButton.png
-xwhiteButton.png
-lSLF07#2@20"Copy whiteButton.png303766459#303766459#0(0"0(0#0#73"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/whiteButton.png8608636384#543"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/whiteButton.png /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app0#
-
-CCpResource build/Release-iphonesimulator/CycleTracks.app/yellowslide.png yellowslide.png
-s303766459.424511
-e303766459.446728
-r1
-xCpResource
-xbuild/Release-iphonesimulator/CycleTracks.app/yellowslide.png
-xyellowslide.png
-lSLF07#2@20"Copy yellowslide.png303766459#303766459#0(0"0(0#0#73"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/yellowslide.png8611293024#543"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/yellowslide.png /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app0#
-
-CDataModelCompile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/CycleTracks.mom /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/CycleTracks.xcdatamodel
-s303766462.029827
-e303766462.080700
-r1
-xDataModelCompile
-x/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/CycleTracks.mom
-x/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/CycleTracks.xcdatamodel
-lSLF07#2@89"Compile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/CycleTracks.xcdatamodel303766462#303766462#0(0"0(0#0#81"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/CycleTracks.xcdatamodel8608630688#455"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.6 /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/CycleTracks.xcdatamodel /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/CycleTracks.mom0#
-
-CGenerateDSYMFile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app.dSYM /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/CycleTracks
-s303766465.451786
-e303766465.514098
-r1
-xGenerateDSYMFile
-x/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app.dSYM
-x/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/CycleTracks
-lSLF07#2@125"GenerateDSYMFile build/Release-iphonesimulator/CycleTracks.app.dSYM build/Release-iphonesimulator/CycleTracks.app/CycleTracks303766465#303766465#0(0"0(0#0#115"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/CycleTracks8603029088#456"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/CycleTracks -o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app.dSYM0#
-
-CLd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/CycleTracks normal i386
-s303766465.118304
-e303766465.451637
-r1
-xLd
-x/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/CycleTracks
-xnormal
-xi386
-lSLF07#2@120"Link /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/CycleTracks303766465#303766465#0(0"0(0#0#0"8611257504#1150"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator -F/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator -filelist /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/Objects-normal/i386/CycleTracks.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -framework CoreLocation -framework Security -framework MapKit -framework AudioToolbox -framework QuartzCore -o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/CycleTracks0#
-
-CProcessInfoPlistFile /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/Info.plist CycleTracks-Info.plist
-s303766459.222469
-e303766459.226481
-r1
-xProcessInfoPlistFile
-x/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/Info.plist
-xCycleTracks-Info.plist
-lSLF07#2@30"Process CycleTracks-Info.plist303766459#303766459#0(0"0(0#0#80"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/CycleTracks-Info.plist8604059168#552"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility CycleTracks-Info.plist -genpkginfo /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app/Info.plist0#
-
-CProcessPCH /var/folders/3M/3Mc6UPbIF4Csdm6nOTNock+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CycleTracks_Prefix-fbmhmvktzqglahbrsxvmiwyaijkq/CycleTracks_Prefix.pch.gch CycleTracks_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s303766461.157199
-e303766462.029713
-r1
-xProcessPCH
-x/var/folders/3M/3Mc6UPbIF4Csdm6nOTNock+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CycleTracks_Prefix-fbmhmvktzqglahbrsxvmiwyaijkq/CycleTracks_Prefix.pch.gch
-xCycleTracks_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@33"Precompile CycleTracks_Prefix.pch303766461#303766462#0(0"0(0#0#80"/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/CycleTracks_Prefix.pch8601251968#2086"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-generated-files.hmap -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-own-target-headers.hmap -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-all-target-headers.hmap -iquote /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/CycleTracks-project-headers.hmap -F/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/include -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/DerivedSources/i386 -I/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/CycleTracks.build/Release-iphonesimulator/PaceLogger.build/DerivedSources -c /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/CycleTracks_Prefix.pch -o /var/folders/3M/3Mc6UPbIF4Csdm6nOTNock+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CycleTracks_Prefix-fbmhmvktzqglahbrsxvmiwyaijkq/CycleTracks_Prefix.pch.gch0#
-
-CTouch /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app
-s303766465.514189
-e303766465.519404
-r1
-xTouch
-x/Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app
-lSLF07#2@109"Touch /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app303766465#303766465#0(0"0(0#0#0"8602886688#322"    cd /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/markcanales/Desktop/CycleTracks-iPhone/CycleTracks/build/Release-iphonesimulator/CycleTracks.app0#
-
